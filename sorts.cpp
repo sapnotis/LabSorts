@@ -330,7 +330,7 @@ int main(int argc, char* argv[])
     if (n < 1)
         {
             cout << "Число слишком маленькое, использовано значение по умолчанию: " << n << endl;
-            n = 20;
+            n = 30;
         }
     else if (n > SIZEMAX)
         {
