@@ -1,0 +1,15 @@
+Static build on Linux, command:
+
+g++ *.cpp -o visualiser -I /mnt/c/libraries/SFML-2.6.2-linux-gcc-64-bit/include -L /mnt/c/libraries/SFML-2.6.2-linux-gcc-64-bit/lib -lsfml-graphics-s -lsfml-window-s -lsfml-system-s -l udev -l Xrandr -l X11 -l Xcursor
+
+Base:		g++ *.cpp -o visualiser
+Include path:	-I /{SFML PATH}/include
+Lib path:	-L /{SFML PATH}/lib
+Necessary files:
+-l sfml-graphics-s
+-l sfml-window-s
+-l sfml-system-s
+-l udev
+-l Xrandr
+-l X11
+-l Xcursor
